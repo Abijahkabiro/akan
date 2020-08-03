@@ -43,4 +43,37 @@ function checkDayOfWeek(){
    }else{
        gender="Female"
    }
+   console.log(gender);
+
+   if(day==="0" && gender==="Male"){
+      alert("Your birthday and Akan name:Sunday + Kwasi")
+   }else if(day==="1" && gender==="Male"){
+      alert("Your birthday and Akan name:Monday + Kwadwo")
+   }else if(day==="2" && gender==="Male"){
+      alert("Your birthday and Akan name:Tuesday + Kwabena")
+   }else if(day==="3" && gender==="Male"){
+      alert("Your birthday and Akan name:Wednesday + Kwaku")
+   }else if(day==="4" && gender==="Male"){
+      alert("Your birthday and Akan name:Thursday + Yaw")
+   }else if(day==="5" && gender==="Male"){
+      alert("Your birthday and Akan name:Friday + Kofi")
+   }else if(day==="6" && gender==="Male"){
+      alert("Your birthday and Akan name:Saturday + Kwame")
+   }
+
+   if(day==="0" && gender==="Female"){
+       alert("Your birthday and Akan name:Sunday + Akosua")
+   }else if(day==="1" && gender==="Female"){
+       alert("Your birthday and Akan name:Monday + Adwoa")
+   }else if(day==="2" && gender==="Female"){
+        alert("Your birthday and Akan name:Tuesday + Abenaa")
+   }else if(day==="3" && gender==="Female"){
+        alert("Your birthday and Akan name:Wednesday + Akua")
+  }else if(day==="4" && gender==="Female"){
+        alert("Your birthday and Akan name:Thursday + Yaa")
+   }else if(day==="5" && gender==="Female"){
+        alert("Your birthday and Akan name:Friday + Afua")
+   }else if(day==="6" && gender==="Female"){
+        alert("Your birthday and Akan name:Saturday + Ama")
+   }
 }
