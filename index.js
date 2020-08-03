@@ -33,4 +33,8 @@ function calculateDay(){
 
 function checkDayOfWeek(){
     day = calculateDay();
+
+    var daysOfWeek=["sunday, monday, tuesday, wednesday, thusday, friday, saturday"]
+    var maleAkanNames=["Kwasi, Kwadwo, Kwabena, Kwaku, Yaw, Kofi, Kwame"]
+    var femaleAkanNames=["Akosua, Adwoa, Abenaa, Akua, Yaa, Afua, Ama"]
 }
