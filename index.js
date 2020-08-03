@@ -37,4 +37,10 @@ function checkDayOfWeek(){
     var daysOfWeek=["sunday, monday, tuesday, wednesday, thusday, friday, saturday"]
     var maleAkanNames=["Kwasi, Kwadwo, Kwabena, Kwaku, Yaw, Kofi, Kwame"]
     var femaleAkanNames=["Akosua, Adwoa, Abenaa, Akua, Yaa, Afua, Ama"]
+
+    if(document.getElementById("rad1").checked==true){
+        gender="Male"
+   }else{
+       gender="Female"
+   }
 }
