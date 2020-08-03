@@ -13,4 +13,14 @@ function getInput(){
     console.log(year);
     console.log(month);
     console.log(day);
+
+    if(isNaN(century)){
+        alert("Incorrect Century")
+    }else if(isNaN(year)){
+        alert("Incorrect Year")
+    }else if(month>12){
+        alert("Incorrect Month")
+    }else if (day>31){
+        alert("Incorrect Day")
+    }
 }
