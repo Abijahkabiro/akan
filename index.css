@@ -1,5 +1,12 @@
 .container{
     background-image: url("../akan/images/images.jpg");
-    height: 100%;
-    width: 100%;
 }
+@media  screen and (min-width: 480px) and (max-width: 689px) { 
+    body {
+        color:black;
+         }
+    }
+    @media screen and (min-width: 690px) {
+    body {
+        color:darkblue;
+    }
